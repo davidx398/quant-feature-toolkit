@@ -19,7 +19,6 @@ It includes:
 │
 ├── research/ # Testing environment using synthetic data
 │ ├── test_indicators.py # Verifies indicator output correctness and stability
-│ ├── smoke_test.py # End-to-end script running all indicators on toy data
 │ ├── utils.py # Helper functions for generating test signals
 │ └── ...
 │
