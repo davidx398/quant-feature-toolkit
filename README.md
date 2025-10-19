@@ -10,7 +10,7 @@ It includes:
 ---
 
 ## Folder Structure
-quant-feature-toolkit/
+```quant-feature-toolkit/
 ├── indicators/ # Core indicator implementations
 │ ├── cmma.py
 │ ├── entropy.py
@@ -24,7 +24,7 @@ quant-feature-toolkit/
 │ └── ...
 │
 ├── README.md
-
+```
 About the research/ Folder
 
 The research/ directory is not used for production trading code.
