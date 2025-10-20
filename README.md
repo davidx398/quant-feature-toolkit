@@ -18,7 +18,7 @@ It includes:
 │ ├── ...
 │
 ├── research/ # Testing environment using synthetic data
-│ ├── test_indicators.py # Verifies indicator output correctness and stability
+│ ├── test_indicators.py # can test the indicators in the directory on datasets
 │ ├── utils.py # Helper functions for generating test signals
 │ └── ...
 │
@@ -36,3 +36,5 @@ Smoke tests and sanity checks that confirm outputs have the expected shape, scal
 Exploratory scripts for debugging or plotting indicator behavior before integration.
 
 This ensures that all indicators in the indicators/ library generate consistent, reproducible results before being used in larger backtesting or modeling pipelines.
+
+Use the test_indicators.py file to test the developed indicators on datasets
